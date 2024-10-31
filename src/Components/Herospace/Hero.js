@@ -15,11 +15,11 @@ export default function Hero() {
                         <Typography color="#5C6169" fontSize={{ md: 20 }} mb={3}>
                             Connect instantly with a 24x7 specialist or choose to video visit a particular doctor.
                         </Typography>
-                        {/* <Link to='/search'> */}
+                        <Link to='/search'>
                             <Button variant='contained' size="large" disableElevation>
                                 Find Centers
                             </Button>
-                        {/* </Link> */}
+                        </Link>
                     </Box>
                     <Box
                         component={'img'}
